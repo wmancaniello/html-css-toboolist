@@ -44,12 +44,14 @@
     padding-right: 300px;
 }
 
-.checked{
-
+ol{
+    list-style: none;
 }
 
 ul{
-    list-style-type: none;
+    list-style: none;
+    background-color: white;
+    padding-left: ;
 }
 
 .highlight{
@@ -59,7 +61,16 @@ ul{
     padding: 3px 10px;
 }
 
+.circle{
+    border: 2px solid greenyellow;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+}
+
 .container{
     padding-left: 10%;
     padding-right: 10%;
 }
+
