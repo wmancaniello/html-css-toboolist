@@ -1,31 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border border-box;
 }
 
-.logo-bk{
+.logo-bk {
     padding: 10px;
     background-color: #edf2f6;
 }
 
-.logo-bk{
+.logo-bk {
     text-align: center;
 }
 
-.nav-bk{
+.nav-bk {
     text-align: center;
     margin-top: 30px;
     background-color: #edf2f6;
     padding: 15px;
 }
 
-.search{
+.search {
     padding: 5px;
     border-radius: 5px;
 }
 
-.btt{
+.btt {
     background-color: #17a9f5;
     color: white;
     padding: 5px;
@@ -33,44 +33,97 @@
     border-color: #17a9f5;
 }
 
-.main-bk{
+.main-bk {
     background-color: #edf2f6;
     margin-top: 5px;
     padding-top: 40px;
-}
-
-.list{
-    text-align: center;
     padding-right: 300px;
 }
 
-ol{
+.list {
+    margin-left: 300px;
+}
+
+ol {
     list-style: none;
 }
 
-ul{
+ul {
     list-style: none;
     background-color: white;
-    padding-left: ;
 }
 
-.highlight{
+li{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+}
+
+.highlight1 {
     color: white;
     background-color: #17a9f5;
     border-radius: 10px;
     padding: 3px 10px;
 }
 
-.circle{
+.highlight2 {
+    color: white;
+    background-color: #ab5de6;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.highlight3 {
+    color: white;
+    background-color: #2dc6ab;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.highlight4 {
+    color: white;
+    background-color: #ff9b00;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.highlight5 {
+    color: white;
+    background-color: #ec499d;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+.highlight6 {
+    color: white;
+    background-color: #a2d115;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+
+
+
+.circlev {
     border: 2px solid greenyellow;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    
+
 }
 
-.container{
+.circlex {
+    border: 2px solid red;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.container {
     padding-left: 10%;
     padding-right: 10%;
 }
 
+
+
+/* &#10007 */
