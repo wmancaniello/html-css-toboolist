@@ -7,7 +7,55 @@
     <link rel="stylesheet" href="./css/correzione.css">
 </head>
 <body>
-    <h1>Ciao</h1>
-    
+    <!-- HEADER -->
+    <header class="header">
+        <img class="logo-image" src="./img/logo.png" alt="">
+        <span class="logo-text">TOBOOLIST</span>
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+            <!-- Top Box -->
+            <div class="top">
+                <input type="text" placeholder="Es: Fare la spesa...">
+                <button>Add Task</button>
+            </div>
+            <!-- /Top Box -->
+            <!-- List box -->
+            <div class="list-box">
+                <!-- First Level List -->
+                <ul class="main-list">
+                    <li>
+                        <h3>&#10148 Task Precedenti</h3>
+                        <ul class="inner-list">
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Quaterly Newsletter</span>
+                                <span>Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&#10148 Oggi</h3>
+                        <ul class="inner-list">
+                            <li>
+                                <span class="circle cross">&cross;</span>
+                                <span>Quaterly Newsletter</span>
+                                <span>Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&#10148 Prossimi Giorni</h3>
+                    </li>
+                </ul>
+            </div>
+            <!-- /List Box -->
+
+        </div>
+    </main>
+    <!-- /MAIN -->
 </body>
 </html>
