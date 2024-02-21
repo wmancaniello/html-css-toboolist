@@ -95,3 +95,24 @@ ul{
     color: red;
     border-color: red;
 }
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.recruiting { 
+    background-color: red;
+}
+
+.editorial {
+    background-color: blue;
+}
+
+.done,
+.editorial {
+    text-decoration: line-through;
+    text-decoration-color: black;
+}
