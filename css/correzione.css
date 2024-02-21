@@ -1,3 +1,97 @@
-h1{
-    color: blue;
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+/* HEADER */
+.header{
+    background-color: lightgrey;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.logo-image,
+.logo-text{
+    vertical-align: middle;
+}
+
+.logo-text{
+    font-weight: 600;
+    font-size: 24px;
+}
+
+/* MAIN */
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 60%;
+    margin: 60px auto 10px;
+    background-color: lightgrey;
+
+    /* Debug */
+    /* height: 400px; */
+}
+
+.top{
+    padding: 15px 0;
+    text-align: center;
+}
+
+.top input,
+.top button {
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.top button{
+    background-color: aqua;
+    color: red;
+}
+
+/* List Box */
+.list-box{
+    padding: 40px;
+}
+
+.main-list h3{
+    text-transform:uppercase
+}
+
+.main-list > li{
+    margin-bottom: 15px;
+}
+
+.inner-list{
+    background-color: white;
+    padding: 10px;
+}
+
+.circle{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    border: solid black;
+}
+
+.check {
+    color: green;
+    border-color: green;
+}
+
+.cross {
+    color: red;
+    border-color: red;
 }
